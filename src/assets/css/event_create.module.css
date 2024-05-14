@@ -1,0 +1,213 @@
+.event_create {
+    font-family: poppins;
+    overflow: hidden !important;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    backdrop-filter: var(--backdrop);
+    user-select: none;
+}
+
+
+.event_create_container {
+    position: relative;
+    border-radius: 10px;
+    border: solid 1px var(--border-bg-dark);
+    width: 585px;
+    padding: 10px;
+    background-color: var(--secondary);
+    backdrop-filter: var(--blur);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.event_create_main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.event_create_header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.event_create_header img {
+    width: 100%;
+}
+
+.event_create_header div img {
+    width: 100%;
+    
+}
+
+span.h1 {
+    font-size: var(--h1);
+    font-weight: var(--semibold);
+}
+
+span.h2 {
+    color: var(--primary);
+    font-size: 14px;
+    font-weight: var(--medium);
+    text-shadow: var(--text-shadow-primary-bright);
+}
+
+.line {
+    background-image: linear-gradient(to right, #99999936, #3892ff94, #99999936);
+    width: 100%;
+    height: 0.1rem;
+    border-radius: 0.25rem;
+}
+
+.event_create_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* gap: 40px; */
+}
+
+
+
+
+.event_create_text {
+    position: absolute;
+    color: var(--primary);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: var(--semibold);
+    font-size: 36px;
+    text-shadow: var(--text-shadow-primary);
+}
+
+
+
+
+.event_create_problems {
+    font-size: 14px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+    height: 65px;
+    background-color: var(--seondarybt);
+    backdrop-filter: var(--backdrop);
+    border-radius: 5px;
+    border: 1px solid var(--border-gray-dark);
+    color: var(--white);
+    font-family: var(--semibold);
+    transition: border .2s ease-in-out;
+    padding: 15px;
+}
+
+
+.event_create_button {
+    font-size: 14px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+    height: 65px;
+    background-color: var(--seondarybt);
+    backdrop-filter: var(--backdrop);
+    border-radius: 5px;
+    border: 1px solid var(--border-gray-dark);
+    color: var(--white);
+    font-family: var(--semibold);
+    transition: border .2s ease-in-out;
+    padding: 15px;
+}
+
+.event_create_styledbutton {
+    height: 60px;
+    color: var(--white);
+    background-color: var(--seondarybt);
+    border-radius: 5px;
+    border: 1px solid var(--border-gray-dark);
+    font-size: 18px;
+    transition: 0.3s all;
+    width: 100%;
+    background-color: var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.event_create_styledbuttonInline {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.event_create_styledbutton:hover {
+    transition: 0.3s all;
+    background-color: var(--primary);
+}
+
+.event_create_inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.event_create_input::before{
+    content: url(../icons/user.png);
+    position: inline-block;
+    width: 30px;
+    height: 38px;
+    vertical-align: middle;
+    color: #D9D9D9;
+}
+
+.event_create_inputs input {
+    font-size: 20px;
+    width: 100%;
+    display: flex;
+    height: 66px;
+    background-color: var(--seondarybt);
+    backdrop-filter: var(--backdrop);
+    border-radius: 5px;
+    border: 1px solid var(--border-gray-dark);
+    color: var(--white);
+    font-family: var(--semibold);
+    transition: border .2s ease-in-out;
+    padding: 15px;
+    outline: none;
+    padding-left: 50px;
+}
+
+
+.event_create_input{
+    font-size: 14px;
+    align-items: center;
+    justify-content: space-between;
+    width: 370px;
+    display: flex;
+    height: 66px;
+    background-color: var(--seondarybt);
+    backdrop-filter: var(--backdrop);
+    border-radius: 5px;
+    border: 1px solid var(--border-gray-dark);
+    color: var(--white);
+    font-family: var(--semibold);
+    transition: border .2s ease-in-out;
+    padding: 15px;
+
+}

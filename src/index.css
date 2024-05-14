@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+:root {
+    --primary: #9D099D;
+    --gray-text: #919191;
+    --secondary: #202020d7;
+    --seondarybt:#49494988;
+    --seondarybt2:#474747a4;
+    --grayhover:#5c5c5c63;
+    --darkgrayhover:#49494980;
+    --white: #FFFFFF;
+    --border-gray-dark:#8180804f;
+    --border-gray-darker:#4b4a4a4f;
+    --border-gray-dark-hover: #818080b6;
+    --border-bg-dark:#4270ab4b;
+
+
+    --sm: 13px;
+    --h1: 28px;
+
+
+    --padding-container:32px;
+    --medium: 500;
+    --semibold: 600;
+    --bold: 700;
+
+    --line:linear-gradient(90deg, #999999 0%, var(--primary) 55%, #999999 100%);
+
+    --backdrop: blur(20px);
+    --text-shadow-white: rgba(255, 255, 255, 0.582) 0 0 20px;
+    --text-shadow-primary-bright: rgba(101, 181, 255, 0.295) 0 0 33px;
+    --text-shadow-primary: #9D099D 0 0 20px;
+
+}
+
+body {
+    font-family: poppins;
+}
+
+.line {
+    background-image: linear-gradient(to right, #99999936, #3892ff94, #99999936);
+    width: 100%;
+    height: 0.1rem;
+    border-radius: 0.25rem;
+}
+
